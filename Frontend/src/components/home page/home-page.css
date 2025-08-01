@@ -1,0 +1,43 @@
+/* section => Homepage */
+
+.inter {
+  font-family: "Inter", sans-serif;
+}
+
+.dm-sans {
+  font-family: "DM Sans", sans-serif;
+}
+
+.container-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.bg-homepage {
+  background-color: #ffe6c9;
+}
+
+.w-nav {
+  max-width: 1400px;
+}
+
+.btn-font {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.heading {
+  font-size: 90px;
+  font-weight: 700;
+  color: #212121;
+  line-height: 80px;
+}
+
+.sub-heading {
+  font-size: 22px;
+  font-weight: 400;
+  color: #666666;
+}
