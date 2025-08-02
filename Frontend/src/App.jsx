@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-import "./App.css";
+import './styles/base/base.css'
+
 import ProjectsArea from "./components/project area/project-area.jsx";
 
 import HomePage from "./components/home page/home-page.jsx";

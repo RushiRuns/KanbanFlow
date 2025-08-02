@@ -1,5 +1,4 @@
 import { useState } from "react";
-import "./project-area.css";
 import { useNavigate } from "react-router-dom";
 import { DragDropContext, Droppable } from "@hello-pangea/dnd";
 
