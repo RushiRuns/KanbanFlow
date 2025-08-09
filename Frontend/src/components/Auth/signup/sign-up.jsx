@@ -10,18 +10,18 @@ export default function SignUpForm({ className, ...props }) {
   const navigate = useNavigate();
 
   return (
-    <div className={cn("flex flex-col gap-6 ", className)} {...props}>
-      <Card className="overflow-hidden">
+    <div className={cn("flex flex-col gap-6", className)} {...props}>
+      <Card className="overflow-hidden p-0">
         <CardContent className="grid p-0 md:grid-cols-2">
           <form className="p-6 md:p-8">
             <div className="flex flex-col gap-6">
               <div className="flex flex-col items-center text-center">
                 <h1 className="text-2xl font-bold">Welcome</h1>
-                <p className="text-balance text-muted-foreground">
-                  Sign up to create your new account
+                <p className="text-muted-foreground text-balance">
+                  Register to create your KanbanFlow account
                 </p>
               </div>
-              <div className="grid gap-2">
+              <div className="grid gap-3">
                 <Label htmlFor="email">Email</Label>
                 <Input
                   id="email"
@@ -30,9 +30,15 @@ export default function SignUpForm({ className, ...props }) {
                   required
                 />
               </div>
-              <div className="grid gap-2">
+              <div className="grid gap-3">
                 <div className="flex items-center">
                   <Label htmlFor="password">Password</Label>
+                  <a
+                    href="#"
+                    className="ml-auto text-sm underline-offset-2 hover:underline"
+                  >
+                    Forgot your password?
+                  </a>
                 </div>
                 <Input id="password" type="password" required />
               </div>
@@ -41,22 +47,27 @@ export default function SignUpForm({ className, ...props }) {
                 className="w-full"
                 onClick={() => navigate("/projects")}
               >
-                Sign Up
+                Login
               </Button>
-
+              
               <div className="text-center text-sm">
-                Already have an account?{" "}
+                Don&apos;t have an account?{" "}
                 <a href="#" className="underline underline-offset-4">
-                  Log In
+                  Sign up
                 </a>
               </div>
             </div>
           </form>
-          <div className="relative hidden bg-muted md:block">
-            <div className="bg-primary"></div>
+          <div className="bg-muted relative hidden md:block">
+            <img
+              src="/placeholder.svg"
+              alt="login"
+              className="absolute inset-0 h-full w-full object-cover dark:brightness-[0.2] dark:grayscale"
+            />
           </div>
         </CardContent>
       </Card>
+      
     </div>
   );
 }

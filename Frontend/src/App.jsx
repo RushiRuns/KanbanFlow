@@ -2,9 +2,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import ProjectsArea from "./components/project area/project-area.jsx";
 import HomePage from "./components/home page/home-page.jsx";
-import SignUp from "./components/Auth/sign-up.jsx";
-import Login from "./components/Auth/login.jsx";
-
+import SignUp from "./components/Auth/signup/signup-container.jsx";
+import Login from "./components/Auth/login/login-container.jsx";
 
 import "./App.css";
 
